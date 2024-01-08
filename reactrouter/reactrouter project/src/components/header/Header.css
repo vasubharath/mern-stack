@@ -1,0 +1,60 @@
+.hh {
+    font-size: 40px;
+    margin-top: 8%;
+    margin-left: 3%;
+    color: rgb(8, 6, 18);
+  }
+  
+  
+  aside {
+     font-size: 30px;
+     font-style: italic;
+     display: flex;
+     margin-right: 30%;
+     margin-left: 3%;
+    
+  }
+  /* body {
+    background-image: url("src\assets\pexels-photo-417173.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  */
+  body {
+    background-color: white;
+  }
+  .ski :hover{
+    background-color: aqua;
+  }
+  @keyframes scale-in {
+    from { transform: scale(0.5); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
+  }
+  
+  .animate-scale-in {
+    animation: scale-in 1s ease-in-out;
+  }
+  @keyframes slide-in-top {
+    from { transform: translateY(-100%); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+  }
+  
+  .animate-slide-in-top {
+    animation: slide-in-top 0.5s ease-in-out;
+  }
+  @keyframes slide-in-top {
+    from { transform: translateY(-100%); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+  }
+  
+  .animate-slide-in-top {
+    animation: slide-in-top 1s ease-in-out;
+  }
+  
+  
+  
+  
+  footer {
+    margin-bottom: 40%;
+    text-align: center;
+  }

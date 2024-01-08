@@ -1,0 +1,17 @@
+body{
+  background-color: white;
+}
+
+
+.lii :hover{
+  background-color: aqua;
+  color: black;
+  transition: .5s;
+
+}
+ul {
+  margin-left: 60rem;
+  display: flex;
+  gap:8px;
+ 
+}

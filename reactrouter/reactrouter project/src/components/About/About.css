@@ -1,0 +1,9 @@
+button {
+    .animate-scale-in {
+        animation: scale-in 1s ease-in-out;
+      }
+      @keyframes slide-in-top {
+        from { transform: translateY(-100%); opacity: 0; }
+        to { transform: translateY(0); opacity: 1; }
+      }
+}
